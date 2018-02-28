@@ -1,4 +1,4 @@
-// Persist REQUEST, destroy RESPONSE
+// Save REQUEST, remove on RESPONSE
 while (true) {
     const req = yield take('REQUEST')
     const res = yield call(fetch, req.payload)

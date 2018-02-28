@@ -37,4 +37,4 @@ const ConversationList = (props: ConnectProps & PaginationProps) => (
     </FlexView>
 )
 
-export default hoc(AllConversations)
+export default hoc(ConversationList)
